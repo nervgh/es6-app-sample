@@ -1,0 +1,22 @@
+{
+    "name": "how-to-use-ecmascript-6-today",
+    "version": "0.0.1",
+    "description": "Sample of es6 application",
+    "author": {
+        "name": "nerv",
+        "url": "https://github.com/nervgh"
+    },
+    "dependencies": {
+        "babel": "^4.4.3",
+        "babel-loader": "^4.0.0",
+        "grunt-contrib-copy": "^0.7.0",
+        "grunt-contrib-clean": "^0.6.0",
+        "grunt-contrib-watch": "^0.6.1",
+        "grunt-webpack": "^1.0.8",
+        "load-grunt-tasks": "^3.1.0"
+    },
+    "scripts": {
+        "preinstall": "npm install grunt-cli -g",
+        "postinstall": "grunt copy:postinstall"
+    }
+}
